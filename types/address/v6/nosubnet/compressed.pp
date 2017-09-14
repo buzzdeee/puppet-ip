@@ -13,5 +13,5 @@ type IP::Address::V6::NoSubnet::Compressed = Pattern[
   /\Afe80:([[:xdigit:]]{1,4}:){3}(:|(:[[:xdigit:]]{1,4}){1,3})%[[:lower:]]{1,8}[[:digit:]]{1,4}\z/,
   /\Afe80:([[:xdigit:]]{1,4}:){4}(:|(:[[:xdigit:]]{1,4}){1,2})%[[:lower:]]{1,8}[[:digit:]]{1,4}\z/,
   /\Afe80:([[:xdigit:]]{1,4}:){5}(:|(:[[:xdigit:]]{1,4}){1,1})%[[:lower:]]{1,8}[[:digit:]]{1,4}\z/,
-  /\Afe80:([[:xdigit:]]{1,4}:){6}:%[[:lower:]]{1,8}[[:digit:]]{1,4}\z/,
+  /\Afe80:([[:xdigit:]]{1,4}:){6}:%[[:lower:]]{1,8}[[:digit:]]{1,4}\z/
 ]
